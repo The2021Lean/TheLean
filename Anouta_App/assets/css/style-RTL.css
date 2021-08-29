@@ -1,0 +1,396 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    direction: rtl;
+        font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .navbar-nav {
+    font-family: "Raleway", sans-serif;
+    margin-right: auto;
+    margin-left: 0;
+}
+* {
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .navbar-nav .nav-item a {
+
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .others-options .login-btn {
+
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+
+    text-align: right;
+}
+.luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+    right: 0;
+    left: auto;;
+
+}
+.luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    right: 250px;
+    left: auto;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif;
+}
+.main-banner-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.overview-box .overview-content .content .services-list li {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.invoicing-content {
+    margin-right: auto;
+    max-width: 625px;
+    margin-left: 0;
+}
+.single-footer-widget .social-links {
+    padding: 0 15px;
+}
+.single-footer-widget .list {
+
+    padding: 0 15px;
+}
+.single-footer-widget .footer-contact-info {
+    padding: 0 15px;
+}
+
+.single-blog-post ul.entry-meta li i {
+    padding-left: 6px;
+    padding-right: 0;
+}
+.single-blog-post .blog-post-content p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.comparisons-table table thead th:nth-child(1) {
+    text-align: right;
+    padding-left: 50px;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: currentColor;
+    font-family: 'Cairo';
+}
+.comparisons-table table tbody td:nth-child(1) {
+    text-align: right;
+    padding-left: 50px;
+    font-family: 'Cairo';
+}
+.feedback-slides {
+
+    direction: ltr;
+}
+
+.feedback-slides .client-feedback .single-feedback {
+    direction: rtl;
+        background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    position: relative;
+    padding-right: 170px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.feedback-slides .client-feedback .single-feedback .client-img {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    left: auto;
+}
+
+.main-banner-content p {
+
+    font-family: cairo;
+
+}
+.main-banner-content {
+    margin-top: 20%;
+    max-width: 600px;
+}
+.overview-box .overview-content .content h2{
+        font-size: 35px;
+}
+
+.single-features-box {
+    height: 300;
+}
+
+
+.luvion-nav .navbar .navbar-nav {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.luvion-nav .navbar .navbar-nav .nav-item a {
+font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.luvion-nav .navbar .navbar-nav .nav-item:first-child a {
+    margin-left: 10px;
+}
+.luvion-nav .navbar .navbar-nav .nav-item:last-child a {
+    margin-right: 10px;
+}
+.luvion-nav .navbar .others-options {
+margin-left: 25px;
+    float: left;
+    position: relative;
+    left: 0;
+    text-align: left;
+    display: block;
+    width: max-content;
+}
+
+.overview-box .overview-content .content .services-list li span {
+    padding-left: 15px;
+    padding-right: 35px;
+}
+.overview-box .overview-content .content .services-list li span i {
+    right: 15px;
+    left: auto;
+}
+.single-team-member:hover .member-image .social {
+    padding: 0;
+}
+.page-title-content p {
+    font-family: 'Cairo', sans-serif;
+}
+.contact-info ul li {
+    padding-right: 95px;
+    padding-left: 0;
+
+}
+.contact-info ul li .icon {
+    right: 0;
+    left: auto;
+}
+.contact-form form .help-block ul {
+    padding-right: 0;
+}
+.contact-info ul li span {
+    font-family: 'Cairo', sans-serif;
+}
+.contact-form form .form-control {
+    font-family: 'Cairo', sans-serif;
+}
+.about-content span {
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .others-options .login-btn i {
+    margin-left: 2px;
+}
+.single-information-box {
+    padding-right: 55px;
+    padding-left: 0;
+}
+.single-information-box .icon {
+
+    left: auto;
+    top: 0;
+    right: 0;
+}
+.information-area .col-lg-3:last-child .single-information-box {
+    padding-left: 0;
+    padding-right: 0;
+}
+.information-area {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.hero-content p {
+    font-family: 'Cairo', sans-serif;
+}
+.hero-image .video-btn{
+        font-family: 'Cairo', sans-serif;
+}
+.features-box-list {
+    margin-right: auto;
+    margin-left: 0;
+}
+.faq-accordion .accordion .accordion-title {
+        font-family: 'Cairo', sans-serif;
+}
+.faq-accordion .accordion .accordion-content {
+    font-size: 16.5px;
+}
+.faq-contact-form form .form-control {
+        font-family: 'Cairo', sans-serif;
+}
+.hero-image .video-btn i {
+    margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .luvion-responsive-nav .logo {
+    position: relative;
+    width: 50%;
+    z-index: 999;
+    left: 0;
+    margin-left: 0;
+    float: left;
+}
+    .luvion-responsive-nav .others-options .login-btn {
+    color: #0d6566;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Cairo';
+    position: relative;
+    top: -50px;
+}
+    .main-banner-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+    body{
+        overflow-x: hidden;
+    }
+    .main-banner {
+    padding-bottom: 0;
+        padding-top: 0;
+}
+    .overview-box .overview-content .content .services-list {
+    text-align: right;
+    padding: 0;
+}
+    .overview-box .overview-image{
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    .feedback-slides .client-feedback .single-feedback {
+    direction: rtl;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    position: relative;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+    .feedback-slides .client-feedback .single-feedback .client-img {
+    position: revert;
+    right: auto;
+    top: auto;
+    left: auto;
+}
+    .app-image {
+    padding: 50px 0;
+}
+    .mean-container .mean-nav ul li {
+    position: relative;
+    float: right;
+    width: 100%;
+}
+    .mean-container .mean-nav ul li a {
+    display: block;
+    float: right;
+    width: 90%;
+    padding: 1em 5%;
+    margin: 0;
+    text-align: right;
+    color: #677294;
+    border-top: 1px solid #DBEEFD;
+    text-decoration: none;
+}
+    .mean-container .mean-nav ul li a.mean-expand {
+    margin-top: 1px;
+    width: 100%;
+    height: 24px;
+    padding: 12px !important;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: auto;
+    z-index: 2;
+    font-weight: 700;
+    background: transparent;
+    border: none !important;
+}
+    .main-banner .spinerimg {
+    display: block;
+    width: 80%;
+    margin: 10% auto;
+    z-index: 99;
+    overflow: hidden;
+    /* margin-bottom: 50px; */
+    padding: 15px 0;
+}
+    .overview-box .overview-content .content h2 {
+    font-size: 20px;
+}
+    .single-features-box {
+    height: auto;
+    overflow-y: auto;
+}
+    .invoicing-content h2 {
+    font-size: 20px;
+    line-height: 1.4;
+}
+}
+
