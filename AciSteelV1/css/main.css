@@ -23334,6 +23334,7 @@ background-color: #303849 !important;
     color: #fff;
     transition: all .4s ease-in-out;
     margin-bottom: 30px;
+        margin-top: 0 !important;
 }
 .linkSeeMore .btnseemore:hover{
     transform: translateY(5px);
@@ -23345,28 +23346,40 @@ background-color: #303849 !important;
     color: #ffffff;
 }
 
+.paddinghussein{
+    
+}
+
+.paddinghussein .container{
+        padding: 50px 0;
+}
 
 
+.paddinghusseintwo .container{
+        padding: 100px 0;
+}
+.paddinservicess{
+    
+}
+.paddinservicess .container{
+        padding: 100px 0;
+    padding-bottom: 50px;
+}
 
+.paddingallery .container{
+        padding: 100px 0;
+    padding-bottom: 50px;
+}
 
+.paddinblog .container{
+        padding: 100px 0;
+    padding-bottom: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.paddinteam .container{
+        padding: 75px 0;
+    padding-bottom: 50px;
+}
 
 
 
