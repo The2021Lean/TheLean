@@ -23383,10 +23383,19 @@ background-color: #303849 !important;
 
 
 
+.s-overlay.ds.ms:before {
+    background-color: #000000;
+    opacity: 1;
+}
+.readmoreabout{
 
+}
 
+.readmoreabout .btnseemore{
+        margin-right: 0;
+    float: right;
 
-
+}
 
 
 
@@ -23463,4 +23472,3 @@ background-color: #303849 !important;
     margin-bottom: 35px;
 }
 }
-
