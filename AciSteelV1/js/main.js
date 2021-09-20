@@ -932,11 +932,11 @@ function documentReadyInit() {
                 var data = $currentSlider.data();
                 var nav = (data.nav !== 'undefined') ? data.nav : true;
                 var dots = (data.dots !== 'undefined') ? data.dots : true;
-                var speed = (data.speed !== 'undefined') ? data.speed : 7000;
+                var speed = (data.speed !== 'undefined') ? data.speed : 2000;
 
                 $currentSlider.flexslider({
                     animation: "fade",
-                    pauseOnHover: true,
+                    pauseOnHover: false,
                     useCSS: true,
                     controlNav: dots,
 //                    directionNav: nav,
@@ -949,7 +949,7 @@ function documentReadyInit() {
                     nextText: "",
                     smoothHeight: false,
                     slideshowSpeed:speed,
-                    animationSpeed:600,
+                    animationSpeed:200,
                     start: function( slider ) {
                         slider.find('.intro_layers').children().css({'visibility': 'hidden'});
                         slider.find('.flex-active-slide .intro_layers').children().each(function(index){
@@ -957,7 +957,7 @@ function documentReadyInit() {
                             var animationClass = !self.data('animation') ? 'fadeInRight' : self.data('animation');
                             setTimeout(function(){
                                 self.addClass("animated "+animationClass);
-                            }, index*250);
+                            }, index*150);
                         });
                     },
                     after :function( slider ){
@@ -966,7 +966,7 @@ function documentReadyInit() {
                             var animationClass = !self.data('animation') ? 'fadeInRight' : self.data('animation');
                             setTimeout(function(){
                                 self.addClass("animated "+animationClass);
-                            }, index*250);
+                            }, index*150);
                         });
                     },
                     end :function( slider ){
@@ -996,7 +996,7 @@ function documentReadyInit() {
                     prevText: "",
                     nextText: "",
                     smoothHeight: false,
-                    slideshowSpeed:5000,
+                    slideshowSpeed:2000,
                     animationSpeed:800,
                 })
             });
