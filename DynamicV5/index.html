@@ -27,6 +27,11 @@
     <!--Video Popup-->
     <link rel="stylesheet" href="assets/css/rpopup.min.css">
     
+
+    <!-- owl-carousel -->
+<link rel="stylesheet" type="text/css" href="assets/owl-carousel/owl.carousel.css" />
+
+    
     <!-- revolution -->
 <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
 
@@ -2745,10 +2750,9 @@ satisfaction
     <!--Our Process Section-->
     
     
-    
-    
+
                   <!--Slider Bottom Area -->
-                    <div style="" class="home-slider-area__bottom-area  padding-top-40 padding-bottom-40">
+                    <div style="display: none"  class="home-slider-area__bottom-area  padding-top-40 padding-bottom-40">
                         <div class="container px-lg-0">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -3982,6 +3986,11 @@ satisfaction
     <!--Google Map Active-->
     <!-- <script src="assets/js/goolg-map-activate.js"></script> -->
     <!-- main js -->
+    
+        <!-- owl-carousel -->
+<script type="text/javascript" src="assets/owl-carousel/owl.carousel.min.js"></script>
+
+    
     <script src="assets/js/main.js"></script>
         <script src="assets/js/maintwo.js"></script>
     
@@ -4074,6 +4083,29 @@ satisfaction
  })(jQuery);
 
 </script>
+    
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+    </script>
   
     
 
