@@ -11418,6 +11418,32 @@ position: absolute;
     top: 40px;
 }
 
+.imagelofofo{
+    width: 150px;
+    display: block;
+}
+
+
+/*
+.fullwidthbanner-container .fullwidthabanner {
+    height: 650px !important;
+}
+.fullwidthbanner-container {
+    height: 650px !important;
+}
+forcefullwidth_wrapper_tp_banner{
+    height: 650px !important;
+}
+*/
+
+
+
+
+
+
+
+
+
 @media(min-width:1024px){
     .is-sticky #autoshop_main_menu{
 display: none !important;
