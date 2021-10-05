@@ -11123,7 +11123,8 @@ top: 60%;
 }
 
 .ServicesCenter{
-        padding: 50px 0;
+padding: 0px 0;
+    padding-top: 50px;
 }
 
 .ServicesCenter .cerviCont{
@@ -11213,8 +11214,23 @@ content: '';
     top: 10px;
 }
 .ServicesCenter .cerviCont .servItem .ServDetails .contDetails .moredet ul li p{
-    
+display: inline-block;
+    width: calc(100% - 50px);
+    text-align: start;
 }
+/*
+.ServicesCenter .cerviCont .servItem .ServDetails .contDetails .moredet ul li p::before{
+content: '';
+    display: inline-block;
+    width: 15px;
+    background: #070707;
+    height: 2px;
+    float: left;
+    margin: 0 10px;
+    position: relative;
+    top: 10px;
+}
+*/
 .ServicesCenter .cerviCont .servItem .ServDetails .contDetails .moredet ul li p span{
     
 }
@@ -11242,7 +11258,7 @@ content: '';
 .home-slider-area__bottom-area {
     background-color: #f5f5f5;
     width: 100%;
-    margin-top: 55px;
+    margin-top: 0px;
 }
 
 .home-slider-area__bottom-area__itmes {
@@ -11253,7 +11269,7 @@ content: '';
 .mbootom {
     margin: 0 !important;
     margin-bottom: 30px !important;
-    min-height: 185px;
+    min-height: 130px;
     display: flex;
     align-items: baseline;
 }
@@ -11262,13 +11278,19 @@ content: '';
 }
 
 .home-slider-area__bottom-area__itmes .items-right-content .heading-05 {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 20px;
+}
+.home-slider-area__bottom-area__itmes .items-right-content .paragraph p{
+        line-height: 22px;
 }
 .home-slider-area__bottom-area__itmes .items-right-content .paragraph p i{
     margin: 0 5px;
+    line-height: 20px;
 }
 .home-slider-area__bottom-area__itmes .items-left-content {
     z-index: 0;
+    top: -25px;
 }
 .main-btn-wrap .main-btn {
     min-width: 180px;
@@ -11303,7 +11325,7 @@ content: '';
     border-radius: 50%;
 }
 .widthkidny{
-        width: 70%;
+        width: 75%;
     margin: auto;
 }
 .footerlogo{
@@ -11373,8 +11395,28 @@ position: absolute;
 .btnopenmap:hover{
     transform: scale(1.1);
 }
-
-
+.home-slider-area__bottom-area__itmes .items-right-content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.home-slider-area__bottom-area__itmes .items-left-content {
+    z-index: 0;
+    top: -25px;
+    /* height: 130px; */
+    display: inline-block;
+}
+.home-slider-area__bottom-area__itmes .items-right-content {
+    padding: 10px;
+    display: inline-block;
+}
+.emptunumber{
+    display: block;
+    position: relative;
+    top: 40px;
+}
 
 @media(min-width:1024px){
     .is-sticky #autoshop_main_menu{
