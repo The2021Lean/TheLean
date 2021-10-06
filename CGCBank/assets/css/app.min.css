@@ -5605,7 +5605,7 @@ font-size: 20px;
         background: #34c38f;
 }
 .bg_Success .avatar-title {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     color: #34c38f;
 }
 .bg_Success h4{
