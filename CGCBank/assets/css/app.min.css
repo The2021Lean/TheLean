@@ -5605,7 +5605,7 @@ font-size: 20px;
         background: #34c38f;
 }
 .bg_Success .avatar-title {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
     color: #34c38f;
 }
 .bg_Success h4{
@@ -5702,8 +5702,6 @@ color: #fff !important;
 
 
 
-/*
 body[data-sidebar=dark] .navbar-brand-box {
     background: #6c5b33;
 }
-*/
