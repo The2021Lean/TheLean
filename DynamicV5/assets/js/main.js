@@ -563,11 +563,12 @@
             $ACh4Slider.slick({
                 dots: true,
                 infinite: true,
-                speed: 1600,
+                speed: 1500,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 fade: true,
                 autoplay: true,
+                 autoplaySpeed: 2000,
                 arrows: true,
                 appendDots: $('.h4-slider-dots'),
                 appendArrows: $('.h4-carousel-dots'),
