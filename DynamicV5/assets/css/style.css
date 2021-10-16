@@ -179,7 +179,7 @@ Version: 1.0.0
     margin: 0 !important; }
     .social-icon ul li .icon, .footer-social-icon ul li .icon {
       color: #fff;
-      font-size: 16px;
+      font-size: 20px;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -2416,6 +2416,15 @@ header {
     line-height: 25px;
     font-weight: 400;
     font-family: var(--menu-font); }
+
+header .left-content span{
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+header .left-content span i{
+    margin: 0 5px;
+}
   header .right-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10615,9 +10624,12 @@ header .logoareatwo {
     
 }
 .Brands .BrandsContent .BrandsItem .BrandsImg{
-    display: block;
-    width: 250px;
+display: flex;
+    height: 150px;
     margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
 }
 .Brands .BrandsContent .BrandsItem .BrandsImg img{
     display: block;
@@ -10804,6 +10816,7 @@ background: #fff;
 .most-popular-cars .nav-tabs .nav-link.active {
     color: #ffffff;
     background-color: black;
+    text-transform: capitalize;
 }
 .most-popular-cars .nav-tabs .nav-link {
     border: none;
@@ -10813,6 +10826,7 @@ background: #fff;
     line-height: 32px;
     font-family: var(--body-font);
     font-weight: 400;
+    text-transform: capitalize;
 }
 .most-popular-tab-content .slider-preloader {
     background-color: rgb(2 48 71);
@@ -11667,7 +11681,92 @@ display: flex;
     color: #000;
 }
 
+.slider-items{
+    position: relative !important;
+    overflow: hidden
+}
+.slider-items .veddev{
+    
+}
+.slider-items .veddev video{
+    
+}
+.slider-items .contentdev{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100vh;
+    width: 100%;
+    background: #00000075
+}
+.accordion-wrapper .card .collapse.show .card-body{
+        background-color: #ffffff;
+    border: 1px solid #f5f5f5;
+    padding-top: 10px;
+}
+.accordion-wrapper .card .card-body{
+            background-color: #ffffff;
+        border: 1px solid #f5f5f5;
+        padding-top: 10px;
+}
 
+
+
+.generationform{
+    padding: 50px 0;
+    /* background: #fff; */
+
+}
+.generationform .overlays{
+    
+}
+
+.generationform .FormCont{
+        padding: 30px 50px;
+    background: #f8f8f8;
+    width: 80%;
+    margin: auto;
+}
+.generationform .FormCont .formgroup{
+    margin-bottom: 15px;
+}
+.generationform .FormCont .formgroup label{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.generationform .FormCont .formgroup .form-control {
+        display: block;
+    width: 100%;
+    height: 45px;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #eee;
+    color: #333;
+    text-transform: capitalize;
+}
+.generationform .FormCont .formgroup .byttonsub{
+    
+}
+
+.generationform .FormCont .formgroup .byttonsub .BUTTONSUBMIT{
+    display: block;
+    width: max-content;
+    margin: 15px auto;
+    padding: 0 35px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #eee;
+    box-shadow: none;
+    background: #000;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
 
 
 
