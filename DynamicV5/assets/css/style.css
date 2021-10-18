@@ -11767,7 +11767,27 @@ display: flex;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
-
+.dealers .showromItem .details .detailscontent .namephones{
+    text-align: center;
+    display: block;
+        padding: 10px 0;
+}
+.dealers .showromItem .details .detailscontent{
+    display: block;
+}
+.dealers .showromItem .details .detailscontent .phonsnum ul {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+.dealers .showromItem .details .detailscontent .phonsnum ul li p {
+    margin: 0;
+    font-size: 15px;
+}
+.dealers .showromItem .details .detailscontent .phonsnum ul li p i {
+    margin: 0 5px;
+    margin-left: 0;
+}
 
 
 @media(min-width:1024px){
