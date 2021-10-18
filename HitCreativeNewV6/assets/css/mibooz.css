@@ -8960,22 +8960,23 @@ font-weight: 400;
 
 .clients{
     padding: 50px 0;
+    background: #121212;
 }
 .clients .clientItem{
     
 }
 
 .clients .clientItem .clientcont{
-    border-radius: 10px;
+border-radius: 10px;
     display: flex;
     height: 150px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #f9fafb;
+    border: 1px solid #12121200;
     margin: 10px 0;
     padding: 15px;
-    background: #fff;
-    box-shadow: 0 0 10px #e0e0e0;
+    background: #12121200;
+    box-shadow: 0 0 10px #12121200;
     margin-top: 20px;
     opacity: .7;
     transition: all .4s ease-in-out;
@@ -8988,7 +8989,7 @@ font-weight: 400;
 }
 .clients .clientItem .clientcont .imagess{
         display: flex;
-    height: 95px;
+    height: auto;
 }
 
 .clients .clientItem .clientcont .imagess img{
@@ -8997,9 +8998,54 @@ font-weight: 400;
     width: 100%;
 }
 
+.rowclientss{
+    
+}
+
 .sidebar__search-form input[type="search"] {
     color: #fff;
 }
+
+.brand-one .articles{
+    
+}
+.brand-one .articles p{
+    display: block;
+    width: 50%;
+    margin: auto;
+    color: #fff;
+}
+.brand-one .articles .thm-btn{
+        color: #fff;
+    border: 1px solid #fff;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: max-content;
+}
+
+.loadmore{
+    
+}
+
+.loadmore a{
+    color: #fff;
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
