@@ -2531,7 +2531,7 @@ ul {
 .brand-one .swiper-slide img {
     -webkit-transition: 500ms;
     transition: 500ms;
-    opacity: 0.3;
+    opacity: 1;
     max-width: 100%;
 }
 
@@ -8995,7 +8995,7 @@ border-radius: 10px;
 .clients .clientItem .clientcont .imagess img{
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 90%;
 }
 
 .rowclientss{
