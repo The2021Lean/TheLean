@@ -2,7 +2,7 @@
 
 /*======================================
  [ -Main Stylesheet-
-  Theme: Restabook
+  Theme: Resturant
   Version: 1.0
   Last change: 31/05/2020 ]
 ++ Fonts ++
@@ -4484,7 +4484,7 @@ font-size: 20px;
 }
 .show-reserv_button {
     color: #fff;
-    border: 1px solid #c19d60;
+    border: 1px solid #c19d6000;
 }
 
 .scroll-sticky .header-container {
@@ -4779,8 +4779,8 @@ margin-top: 10px !important;
 	cursor:pointer;
 	position:relative;
 	display: block;
-	border-left:1px solid #eee;
-	left:24px;
+    border-left: 1px solid #eee0;
+	left:0;
 }
 .nav-button  {
 	position:absolute;
