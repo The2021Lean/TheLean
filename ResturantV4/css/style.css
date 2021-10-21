@@ -4774,6 +4774,36 @@ display: block;
 .padingnon{
     padding: 40px 0 !important;
 }
+.dropmenus ul li a{
+color: #222 !important;
+}
+.dropmenus ul li a:hover{
+color: #C19D60 !important;
+}
+.paddingpottomnon{
+    padding-bottom: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*------responsive------------------------------------------------*/
