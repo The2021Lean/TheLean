@@ -2,7 +2,7 @@
 
 /*======================================
  [ -Main Stylesheet-
-  Theme: Resturant
+  Theme: Restabook
   Version: 1.0
   Last change: 31/05/2020 ]
 ++ Fonts ++
@@ -4744,9 +4744,36 @@ min-height: 150px;
 .underrr{
 margin-top: 10px !important;
 }
-
-
-
+.logoescaaaa{
+/*
+    float: none;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    width: 45px;
+    display: block;
+    margin: auto;
+*/
+}
+.logoescamen{
+float: none;
+    width: max-content;
+    margin: auto;
+}
+.imagescaaa{
+display: block;
+    width: 45px;
+    margin: auto;
+    margin-top: -10px;
+    height: 45px;
+}
+.imagescaaa .essscaaimg{
+    width: 100%;
+}
+.padingnon{
+    padding: 40px 0 !important;
+}
 
 
 /*------responsive------------------------------------------------*/
