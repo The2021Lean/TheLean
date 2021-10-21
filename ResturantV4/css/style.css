@@ -4762,11 +4762,31 @@ float: none;
     margin: auto;
 }
 .imagescaaa{
+/*
 display: block;
     width: 45px;
     margin: auto;
     margin-top: -10px;
     height: 45px;
+*/
+    display: block;
+    width: max-content;
+    margin: auto;
+    margin-top: 0;
+    height: 45px;
+    line-height: 45px;
+}
+.imagescaaa h2{
+            font-size: 28px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #fff;
+}
+.scroll-sticky .imagescaaa h2{
+        font-size: 28px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #000;
 }
 .imagescaaa .essscaaimg{
     width: 100%;
