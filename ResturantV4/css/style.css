@@ -4783,9 +4783,25 @@ color: #C19D60 !important;
 .paddingpottomnon{
     padding-bottom: 40px !important;
 }
+.marknew{
+        position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+}
 
-
-
+.marknew span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #e3a53c;
+    border: 1px solid #e3a53c;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    text-transform: uppercase;
+    background: #0000003d;
+}
 
 
 
