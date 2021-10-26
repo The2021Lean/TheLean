@@ -8561,8 +8561,11 @@ ul {
 
 
 .services-one__single{
-    background-size: cover;
-    padding: 0;;
+background-size: cover;
+    padding: 0;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px !important;
 }
 .overlayserv{
     padding: 82px 40px 34px;
@@ -9042,6 +9045,12 @@ border-radius: 10px;
 
 
 
+
+@media(max-width:768px){
+    .brand-one .articles p {
+    width: 100%;
+    }
+}
 
 
 
