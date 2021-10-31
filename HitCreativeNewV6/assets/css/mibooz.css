@@ -9674,6 +9674,13 @@ margin-bottom: 0;
 
     background-color: #fff;
 }
+.titleSimilar{
+    margin-bottom: 0 !important;
+    margin-top: 50px;
+}
+.titleSimilar .section-title__title{
+    color: #fff;
+}
 
 
 @media(max-width:768px){
