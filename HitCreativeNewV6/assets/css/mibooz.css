@@ -9405,6 +9405,7 @@ margin-bottom: 0;
     padding: 10px 5px;
         width: 92%;
     margin: auto;
+    position: relative;
 }
 .newClintproject .heasdersec .imgges{
         display: inline-block;
@@ -9429,6 +9430,8 @@ margin-bottom: 0;
 .newClintproject .heasdersec .detaislheas{
         display: inline-block;
     padding: 10px;
+        position: absolute;
+    top: 20px;
 }
 .newClintproject .heasdersec .detaislheas h2{
         font-size: 25px;
@@ -9525,6 +9528,8 @@ margin-bottom: 0;
     position: relative;
         overflow: hidden;
     border-radius: 5px;
+    display: block;
+    background: #fff;
 }
 .sliderImgone .item {
     margin: 0 5px;
@@ -9662,7 +9667,13 @@ margin-bottom: 0;
     width: .8rem;
     height: 1.5rem !IMPORTANT;
 }
+.services-three__bottom-text a{
+        color: #d92027;
+}
+.services-three__bottom-text a:before {
 
+    background-color: #fff;
+}
 
 
 @media(max-width:768px){
