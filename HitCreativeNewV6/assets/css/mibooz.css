@@ -9682,7 +9682,9 @@ margin-bottom: 0;
     color: #fff;
 }
 
-
+.footer-1 .copyright{
+    display: none !important;
+}
 @media(max-width:768px){
     .brand-one .articles p {
     width: 100%;
