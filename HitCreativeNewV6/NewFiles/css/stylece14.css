@@ -9061,6 +9061,102 @@ border-color: transparent transparent transparent #fff;
 
 
 
+.footer-linkssite {
+    
+}
+.footer-linkssite .links-map{
+    
+}
+
+.footer-linkssite .links-map ul{
+        display: inline-block;
+    width: 50%;
+    padding: 0;
+    float: left;
+}
+
+.footer-linkssite .links-map ul li{
+        height: 30px;
+    line-height: 30px;
+}
+.footer-linkssite .links-map ul li a{
+        font-size: 15px !important;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+.footer-linkssite .links-map ul li a i{
+        
+
+}
+
+.footer-linkssite .links-map ul li a:hover{
+    color: #d31f26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width:768px){
