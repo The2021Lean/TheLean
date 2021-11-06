@@ -9798,7 +9798,7 @@ background: #fff0;
     font-weight: 400;
     font-size: 15px;
     transition: all .4s ease-in-out;
-    background: #d92027;
+    background: #343434;
     padding: 0px 15px;
     border-radius: 2px;
 }
@@ -9807,7 +9807,7 @@ margin: 0 3px;
     text-align: center;
 
     line-height: 40px;
-    background: #d92027;
+    background: #343434;
     border-radius: 50%;
     color: #fff;
     font-size: 17px;
@@ -9817,6 +9817,7 @@ margin: 0 3px;
 }
 .mapIcon:hover{
     color: #fff;
+    transform: translateY(5px);
 }
 
 
@@ -9840,8 +9841,12 @@ margin: 0 3px;
     transform: translateY(5px);
     color: #fff;
 }
-
-
+.copyRightp{
+    margin-bottom: 0;
+}
+.footer-1 .footer-nav {
+    padding: 15px 0;
+}
 
 
 
