@@ -6180,7 +6180,7 @@ float: left;
 .every-stage__left {
     position: relative;
     display: block;
-    margin-right: 66px;
+    margin-right: 0px;
 }
 
 .every-stage__left .section-title {
