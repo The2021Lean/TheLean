@@ -5974,8 +5974,8 @@ float: left;
 
 .welcome-three__small-img {
     position: absolute;
-    bottom: -100px;
-    left: -100px;
+    bottom: -50px;
+    left: -75px;
 /*    background-color: var(--mibooz-black);*/
     z-index: 2;
 }
