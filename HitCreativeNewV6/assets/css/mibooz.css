@@ -9018,13 +9018,15 @@ border-radius: 10px;
         display: flex;
     height: auto;
 /*    position: relative;*/
+    align-items: center;
+    justify-content: center;
 }
 
 .clients .clientItem .clientcont .imagess img{
     display: flex;
     height: 100%;
     width: 90%;
-        filter: grayscale(1);
+    filter: brightness(0) invert(1) grayscale(0) saturate(1);
     transition: all .4s ease-in-out;
 }
 
