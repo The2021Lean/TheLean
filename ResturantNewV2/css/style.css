@@ -728,6 +728,7 @@ blockquote p {
 	opacity: 1;
 	visibility: visible;
 	margin: 0;
+    padding: 0;
 }
 .nav-holder nav li ul li ul {
 	top: -10px  ;
@@ -767,11 +768,14 @@ blockquote p {
     transform: rotateX(180deg);
 }
 .nav-holder nav li ul a {
-	float:left;
-	width:100%;
-	text-align:left;
-	padding:5px 15px;
-	font-size: 12px;
+float: left;
+    width: 100%;
+    text-align: left;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border-bottom: 1px solid #ddd;
 }
 .dark-header .nav-holder nav li ul a{
 	color:#000;
@@ -1227,6 +1231,7 @@ footer.fixed-footer:before {
 	box-sizing: border-box;
 	position:relative;
 	z-index:10;
+    display: none;
 }
 .scroller {
 	position: relative;
@@ -1415,6 +1420,7 @@ footer.fixed-footer:before {
 	display:inline-block;
 	margin-top:0;
 	top:-20px;
+    display: none;
 }
 /*------section ------------------------------------------------*/
 section {
@@ -5284,7 +5290,7 @@ form .subscribe-button:hover0{
     font-size: 17px;
     color: #bbbaba;
     margin-bottom: 10px;
-    display: block;
+    display: none;
 }
 
 .newfooternenus .directionss a i{
