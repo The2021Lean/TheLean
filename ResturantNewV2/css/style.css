@@ -169,11 +169,11 @@ body {
 }
 /*--------------Typography--------------------------------------*/
 p {
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 24px;
 	padding-bottom: 10px;
 	font-weight: 400;
-	color: #5e646a;
+	color: #cdcdcd;
 }
 blockquote {
 	float: left;
@@ -1275,17 +1275,18 @@ footer.fixed-footer:before {
 }
 .brush-dec {
 	bottom:0;
-	background:url(../images/bg/brush-dec.png);
+	background:url(../images/bg/brush-dec_dark.png);
 }
 .brush-dec2 {
 	top:-2px;
 	height:50px;
-	background:url(../images/bg/brush-dec_2.png);
+	background:url(../images/bg/brush-dec_2_dark.png);
+
 }
 .brush-dec2.brush-dec_bottom {
 	top:100%;
 	margin-top:-2px;
-    z-index: 0;
+
 }
 .multi-slideshow-wrap_fs {
 	position:absolute;
@@ -1414,6 +1415,7 @@ footer.fixed-footer:before {
 }
 .fs-slider-item .grid-carousel-title h4 {
 	font-size:14px;
+    display: none;
 }
 .fs-slider-item .grid-carousel-title .hero_btn {
 	float:none;
@@ -1428,7 +1430,7 @@ section {
 	float: left;
 	width: 100%;
 	padding: 100px 0;
-	background: #fff;
+	background: #151c26;
 }
 section.hidden-section {
 	overflow: hidden;
@@ -1437,7 +1439,7 @@ section.parallax-section {
 	padding: 120px 0;
 }
 .big-padding {
-	padding: 140px 0;
+	padding: 90px 0;
 }
 section.parallax-section.hero-section {
 	padding:210px 0 120px;
@@ -1490,7 +1492,7 @@ section.parallax-section .bg   {
 .section-title h2 {
 	font-size:30px;
 	font-weight:900;
-	color: #151c26;
+	color: #cdcdcd;
 	font-family: 'Playfair Display', cursive;
         font-weight: 500;
        font-family: 'Poppins', sans-serif;
@@ -1513,7 +1515,7 @@ section.parallax-section.hero-section .section-title h2 {
 }
 .dots-separator span:after {
     content: '\25CF\25CF\25CF\25CF\25CF\25CF';
-    color: #333;
+    color: #b87333;
     font-size: 7px;
     letter-spacing: 4px;
 }
@@ -1833,7 +1835,7 @@ section.parallax-section.hero-section .section-title h2 {
 	bottom:-50px;
 	right:50px;
 	height:150px;
-	background:#eee;
+	background:#151c26;
 	border:1px dotted;
 }
 .align-text-block  {
@@ -2540,6 +2542,7 @@ section.parallax-section.hero-section .section-title h2 {
 }
 .team-info p{
 	margin-top:20px;
+    color: #777878;
 }
 .team-social {
 	position:absolute;
@@ -3033,8 +3036,8 @@ section.parallax-section.hero-section .section-title h2 {
 	float:left;
 	width:100%;
 	padding:20px;
-	border:1px solid #eee;
-	background:#eee;
+	border:1px solid #131820;
+	background:#131820;
 	box-sizing:border-box;
 }
 .grid-item-details h3{
@@ -4436,11 +4439,12 @@ footer.fixed-footer {
 }
 
 .bookresvation{
-        background: #fff;
+        background: #151c26;
     padding-top: 75px;
     
     z-index: 1;
     position: relative;
+    z-index: 999;
     
 }
 .bookresvation .reservcontent{
@@ -4483,7 +4487,7 @@ footer.fixed-footer {
 
 
 .venussss{
-background: #fff;
+background: #151c26;
     padding-top: 50px;
     z-index: 0;
     position: relative;
@@ -4974,7 +4978,7 @@ display: block;
 }
 
 .ourteamsss{
-    background: #fff;
+    background: #151c26;
     padding: 50px 0;
     padding-bottom: 0;
 }
@@ -5101,7 +5105,7 @@ width: 200px;
 
 .lilogocenter{
         margin: 0 15px !important;
-    height: 90px !important;
+    height: 110px !important;
     top: -20px;
     transition: all .4s ease-in-out;
 }
@@ -5200,7 +5204,7 @@ width: 80%;
     
 }
 .bgwight{
-    background: #fff;
+    background: #151c26;
 }
 
 
@@ -5264,7 +5268,7 @@ form .subscribe-button:hover0{
     
 }
 .quote-box{
-    top: 20%;
+    top: 30%;
 }
 
 
@@ -5290,7 +5294,7 @@ form .subscribe-button:hover0{
     font-size: 17px;
     color: #bbbaba;
     margin-bottom: 10px;
-    display: none;
+    display: block;
 }
 
 .newfooternenus .directionss a i{
@@ -5545,7 +5549,7 @@ width: 95%;
     
 }
 .eventSection .EventArteclis .Discription p{
-    color: #5f6060;
+    color: #cdcdcd;
     font-size: 15px;
     padding: 0 25px;
 }
@@ -5593,25 +5597,75 @@ width: 95%;
 }
 
 
+.venusNewItem{
+    display: block;
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+        overflow: hidden;
+}
+
+.venusNewItem .NewVenCont{
+        border: 1px dashed rgba(255,255,255,0.2);
+    z-index: 2;
+    box-shadow: 0px 0px 0px 50px rgb(255 255 255 / 3%);
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venusNewItem .NewVenCont .Venuslink{
+    
+}
+.venusNewItem .NewVenCont .Venuslink img{
+    display: block;
+    width: 120px;
+    height: auto;
+}
+
+
+
+.parallax-section .section-title h4{
+    display: none;
+}
+
+
+.dislpalyflix{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+}
 
 
 
 
+.mapapapap{
+        padding: 0;
+}
+.mapapapap .overlayaaa{
+    
+}
+.mapapapap .overlayaaa .ififirame{
+        display: block;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.mapapapap .overlayaaa .ififirame iframe{
+display: block;
+    width: 100%;
+    height: calc(100% + 50px);
+    position: relative;
+    top: -50px;
+}
 
+.i4ewOd-pzNkMb-haAclf {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    background-color: rgb(250 253 255 / 0%) !important;
+}
 
 
 
@@ -6215,6 +6269,30 @@ section {
 	padding-right:0;
 } 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	.bg {
 		background-attachment: scroll !important;
