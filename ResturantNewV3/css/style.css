@@ -2271,7 +2271,7 @@ section.parallax-section.hero-section .section-title h2 {
 }
 .tab-content   {
     width: 100%;
-    display: none;
+/*    display: none;*/
 	float:left;
 }
 .tab{
@@ -3380,11 +3380,17 @@ h4.cart-title {
 .custom-form input {
 	margin-bottom: 20px;
 }
-.custom-form .btn {
+
+.custom-form .btn{
 	border:none;
 	-webkit-appearance: none;
 	cursor:pointer;
 	margin-top:40px;
+    border-radius: 0;
+}
+.custom-form .btn:hover{
+    color: #fff;
+    
 }
 .custom-form  textarea:focus , .custom-form input[type="text"]:focus  , .custom-form  input[type=email]:focus  , .custom-form  input[type=password]:focus   {
 	background:#151c26;
@@ -5693,23 +5699,65 @@ display: block;
 }
 
 
+.TabsEventt{
+    
+}
+.TabsEventt .nav{
+        display: block;
+}
+
+.TabsEventt .nav li{
+    display: block;
+    width: 300px;
+    margin: 3px auto;
+}
+.TabsEventt .nav li a{
+    border-radius: 0;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    display: block;
+    width: 100%;
+        display: block;
+    width: 100%;
+    background: #131820;
+    border: 2px solid #151c26;
+    color: #cdcdcd;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.TabsEventt .nav li .active{
+    background: #b87333;
+}
+
+
+.TabsEventt .formTapsss{
+    
+}
+.TabsEventt .formTapsss fieldset{
+display: block;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+.TabsEventt .formTapsss .section-title {
+    margin-top: 60px;
+}
 
 
 
+.tiitleformrm{
+    margin: 40px 0;
+    margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tiitleformrm h2{
+        text-align: start;
+    font-size: 20px;
+    color: #b87333;
+}
 
 
 
