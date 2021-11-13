@@ -64,18 +64,18 @@ body {
 	z-index:100;
 }
 .loader {
-	position: absolute;
-	top:45%;
-	left:45%;
-	width:max-content;
-	height:40px;
-	margin:-20px 0 0 -20px;
-	z-index:20;
+position: absolute;
+    top: calc(50% - 100px);
+    left: 45%;
+    width: 200px;
+    height: auto;
+    margin: -20px 0 0 -20px;
+    z-index: 20;
     transform: scale(1.0);
 }
 .loader img{
     display: block;
-    width: 150px;
+    width: 100%;
     height: auto;
 }
 /*
@@ -124,7 +124,7 @@ body {
 	opacity: 1;
 	visibility: visible;
 	overflow: hidden;
-    background: #151c26;
+    background: #fff;
 }
 .cd-loader-layer .loader-layer , .cd-tabs-layer .tabs-layer , .cd-reserv-overlay-layer .reserv-overlay-layer {
 	position: absolute;
