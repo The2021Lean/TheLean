@@ -66,10 +66,10 @@ body {
 .loader {
 position: absolute;
     top: calc(50% - 100px);
-    left: 45%;
+    left: calc(50% - 100px);
     width: 200px;
     height: auto;
-    margin: -20px 0 0 -20px;
+    margin: 0;
     z-index: 20;
     transform: scale(1.0) !important;
 }
