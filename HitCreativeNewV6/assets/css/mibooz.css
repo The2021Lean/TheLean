@@ -9974,6 +9974,11 @@ display: block;
     margin: 25px auto;
     position: relative;
     padding-left: 20px;
+/*
+        display: flex;
+    height: 445px;
+    align-items: center;
+*/
 }
 .modalservices .modal-body .discriptio p{
     
