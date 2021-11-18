@@ -4759,13 +4759,13 @@ background-color: #d92027;
 float: left;
     max-width: 32.333%;
     width: 100%;
-    background-color: var(--mibooz-primary);
-    padding: 35px 50px 46px;
+/*    background-color: var(--mibooz-primary);*/
+    padding: 35px 35px 35px;
         text-align: center;
 }
 
 .company-numbers__counter li:nth-child(2) {
-    background-color: var(--mibooz-black);
+/*    background-color: var(--mibooz-black);*/
 }
 
 .company-numbers__counter li+li {
@@ -4773,17 +4773,19 @@ float: left;
 }
 
 .company-numbers__counter-content h3 {
-    font-size: 40px;
-    color: var(--mibooz-base);
+font-size: 47px;
+    color: #d92027;
     font-family: var(--mibooz-font-two) !important;
-    line-height: 52px !important;
+    line-height: 60px !important;
+    font-weight: revert;
 }
 
 .company-numbers__counter-text {
-    font-size: 16px;
-    color: var(--mibooz-base);
-    margin: 0;
+    font-size: 30px;
+    color: #17161a;
+    margin: 10px auto;
     line-height: 26px;
+    font-weight: 600;
 }
 
 .company-numbers__counter .odometer-formatting-mark {
@@ -9883,6 +9885,133 @@ margin: 0 3px;
     margin: auto;
     text-align: center;
 }
+
+
+
+.brand-one marquee{
+    margin: auto;
+    display: block;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.brand-one marquee ul{
+        display: flex;
+}
+.brand-one marquee ul li{
+    float: left;
+    margin: 0 15px;
+}
+.brand-one marquee ul li .imgMarquee{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.brand-one marquee ul li .imgMarquee img{
+        display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.modalservices{
+        background: #000000a6;
+}
+
+.modalservices .close{
+    
+}
+.modalservices .modal-dialog{
+        transform: none;
+    display: block;
+    width: 80%;
+    max-width: 80%;
+}
+.modalservices .modal-content{
+        border-radius: 0;
+}
+.modalservices .modal-header{
+    background: #d92027;
+    border-radius: 0;
+    padding: 10px 15px;
+        margin: 0px 0;
+}
+.modalservices .modal-header .modal-title{
+    color: #fff
+}
+.modalservices .modal-header .close{
+    color: #fff;
+        font-size: 35px;
+}
+.modalservices .modal-body{
+        padding-top: 15px;
+}
+.modalservices .modal-body .imgsrev{
+display: block;
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    border: 2px solid #d92027;
+    background: #d92027;
+}
+.modalservices .modal-body .imgsrev img{
+            display: block;
+    width: 100%;
+    height: 100%;
+    transform: translate(10px, 10px)
+}
+.modalservices .modal-body .imgsrev img::after{
+    content: '';
+}
+.modalservices .modal-body .discriptio{
+width: 90%;
+    margin: 25px auto;
+}
+.modalservices .modal-body .discriptio p{
+    
+}
+.modalservices .modal-body .discriptio .darkBG{
+background: #f3f3f3;
+    padding: 15px;
+    border-left: 2px solid #d92027;
+    margin-bottom: 15px;
+}
+.modalservices .modal-body .discriptio .darkBG h2{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
