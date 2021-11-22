@@ -2741,6 +2741,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     color: #bbb;
+        font-size: 14px;
 }
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li:hover a {
@@ -2860,7 +2861,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .humberger-menu.black span {
-    background-color: #fff;
+    background-color: #bbb;
 }
 
 .humberger-menu.black:hover span {
@@ -2869,7 +2870,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .humberger-menu span {
-    height: 3px;
+    height: 2px;
     background-color: #fff;
     margin: 4px;
     display: block;
