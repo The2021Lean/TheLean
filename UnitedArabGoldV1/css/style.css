@@ -10390,11 +10390,25 @@ blockquote a:hover {
     margin-top: 15px;
 }
 
+.loginLingHome{
+    background: #7e621c;
+    color: #ffffff;
 
+    margin-top: 0;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.loginLingHome:hover{
+    color: #fff !important;
+}
+.LiLoginNav{
+    display: none !IMPORTANT;
+}
 
-
-
-
+.LiLoginNav a{
+        background: #c2972e;
+    color: #fff !IMPORTANT;
+}
 
 
 
@@ -10559,7 +10573,12 @@ blockquote a:hover {
     .login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .titleDet h2 {
     font-size: 29px;
 }
- 
+ .loginLingHome{
+    display: none !important;
+    }
+    .LiLoginNav{
+        display: block !important;
+    }
 }
 
 
