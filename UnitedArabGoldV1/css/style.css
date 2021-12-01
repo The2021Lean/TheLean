@@ -10396,7 +10396,7 @@ blockquote a:hover {
 
     margin-top: 0;
     padding: 0 15px;
-    font-size: 14px;
+font-size: 14px !important;
 }
 .loginLingHome:hover{
     color: #fff !important;
