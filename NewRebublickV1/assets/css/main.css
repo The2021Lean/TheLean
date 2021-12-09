@@ -8570,6 +8570,9 @@ height: 40px;
     .personalInfoSec .personalConent{
         width: 100%;
     }
+    .personalInfoSec .personalConent .PersonalImg .ImgCont{
+        margin: auto;
+    }
 }
 
 
