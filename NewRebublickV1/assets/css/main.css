@@ -8573,6 +8573,10 @@ height: 40px;
     .personalInfoSec .personalConent .PersonalImg .ImgCont{
         margin: auto;
     }
+    #scrollUp{
+        right: 10px;
+    bottom: 15px;
+    }
 }
 
 
