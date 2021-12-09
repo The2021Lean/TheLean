@@ -8567,6 +8567,9 @@ height: 40px;
     .FormPageee{
         padding: 0;
     }
+    .personalInfoSec .personalConent{
+        width: 100%;
+    }
 }
 
 
