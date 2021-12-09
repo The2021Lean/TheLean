@@ -117,7 +117,9 @@
 .flaticon-donation-3:before {
     content: "\f10a";
 }
-
+html{
+    overflow-x: hidden;
+}
 body {
     /*  font-family: "Rubik", sans-serif;*/
     font-family: 'Cairo', sans-serif;
@@ -6495,12 +6497,12 @@ background: #ffffff;
 }
 
 .breadcrumb-text>h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 20px;
     text-transform: capitalize;
     line-height: 1;
-    color: #ffffff;
-    font-weight: 700;
+    color: #5e4701;
+    font-weight: 500;
 }
 
 .breadcrumb-menu li {
@@ -6510,7 +6512,7 @@ background: #ffffff;
 }
 
 .breadcrumb-menu li a {
-    color: #ffffff;
+    color: #5e4701;
     font-size: 24px;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease 0s;
@@ -6519,6 +6521,7 @@ background: #ffffff;
     font-weight: 400;
 }
 
+/*
 .breadcrumb-menu li::before {
     content: "\f105";
     display: inline-block;
@@ -6530,11 +6533,25 @@ background: #ffffff;
     color: #fff;
     font-size: 20px;
 }
-
+*/
+.breadcrumb-menu li::after{
+        content: "\f104";
+    display: inline-block;
+    padding-bottom: 0;
+    position: absolute;
+    top: 5px;
+    left: -7px;
+    font-family: "Font Awesome 5 Pro";
+    color: #fff;
+    font-size: 20px;
+    color: #5e4701;
+}
 .breadcrumb-menu li:first-child::before {
     display: none;
 }
-
+.breadcrumb-menu li:last-child::after {
+    display: none;
+}
 .breadcrumb-menu span {
     color: #5e4701;
     font-size: 24px;
@@ -7500,6 +7517,1000 @@ background: #ffffff;
 .features-area .section-title h1{
         font-size: 35px;
 }
+/****/
+.login_registerPage{
+    height: 100%;
+    background: #fff;
+    padding: 1px;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.login_registerPage .ContentPage{
+    width: 100%;
+    background: #af8711;
+    margin: 4% auto;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden
+}
+.login_registerPage .ContentPage{
+    
+}
+
+.login_registerPage .ContentPage .leftSide{
+        padding: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        background: #5e4701;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent{
+    
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails{
+    
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .LogoImg{
+        display: block;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .LogoImg img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .titleDet{
+    text-align: center;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .titleDet h2{
+        color: #af8711;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .titleDet p{
+    color: #fff;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia{
+    
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia .SocilaCont{
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia .SocilaCont a{
+display: inline-block;
+    width: max-content;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    transition: all .4s ease-in-out;
+    background: #af8711;
+    padding: 0 25px;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia .SocilaCont .facebook{
+        background: #3B5998;
+ 
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia .SocilaCont .twiter{
+    
+    background: #55ACEE;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia .SocilaCont .google{
+    background: #F44336;
+}
+.login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .socialMedia .SocilaCont a:hover{
+  transform: translateY(5px);
+}
+
+.login_registerPage .ContentPage .rightSide{
+    padding: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent{
+    
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails{
+    
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .title{
+    
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .title h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .title h1{
+    text-align: center;
+    font-weight: 500;
+        font-size: 30px;
+    color: #fff;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .title p{
+        text-align: center;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .title p a{
+    margin: 0 5px;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails form{
+    
+}
+
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group{
+    margin-bottom: 0;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group label{
+color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group label::after{
+    content: '*';
+    color: #5e4701;
+    font-size: 33px;
+    margin: 0 5px;
+    position: relative;
+    top: 15px;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group input{
+    border-radius: 0;
+    outline: 0;
+    box-shadow: 0 0px 5px #8a8a8a0f;
+    border: 1px solid #eeeeee;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #162542;
+    transition: all .4s ease-in-out;
+    background: #fff;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group input:focus{
+        box-shadow: 0 2px 5px #af8711;
+    border: 1px solid #af8711;
+}
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group .btn_login{
+        display: block;
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.login_registerPage .ContentPage .rightSide .RightSideContent .RightDetails .form-group .btn_login::before {
+background: #4c3a04;
+}
+.donthaveAccount{
+       margin: 10px 0; 
+}
+.donthaveAccount p{
+    color: #ffffff;
+}
+.donthaveAccount p a{
+color: #5e4701;
+    margin: 0 10px;
+    transition: all .4s ease-in-out;
+}
+.donthaveAccount p a:hover{
+    transform: translateY(5px);
+}
+
+
+
+.bg {
+    display: -webkit-box;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    direction: rtl;
+}
+
+.span_pseudo, .chiller_cb span:before, .chiller_cb span:after {
+    content: "";
+    display: inline-block;
+    background: #fff;
+    width: 0;
+    height: 0.2rem;
+    position: absolute;
+    transform-origin: 0% 0%;
+}
+
+.chiller_cb {
+    position: relative;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+    .chiller_cb input {
+        display: none;
+    }
+
+        .chiller_cb input:checked ~ span {
+            background: #5e4701;
+            border-color: #5e4701;
+            border-radius: 3px;
+        }
+
+            .chiller_cb input:checked ~ span:before {
+                width: 1rem;
+                height: 0.15rem;
+                transition: width 0.1s;
+                transition-delay: 0.3s;
+            }
+
+            .chiller_cb input:checked ~ span:after {
+                width: 0.4rem;
+                height: 0.15rem;
+                transition: width 0.1s;
+                transition-delay: 0.2s;
+            }
+
+        .chiller_cb input:disabled ~ span {
+            background: #ececec;
+            border-color: #dcdcdc;
+        }
+
+        .chiller_cb input:disabled ~ label {
+            color: #dcdcdc;
+        }
+
+            .chiller_cb input:disabled ~ label:hover {
+                cursor: default;
+            }
+
+    .chiller_cb label {
+    padding-right: 2rem;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    }
+
+    .chiller_cb span {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+    border: 2px solid #eee;
+        border-radius:3px;
+        position: absolute;
+        right: 0;
+        transition: all 0.2s;
+        z-index: 1;
+        box-sizing: content-box;
+    }
+
+        .chiller_cb span:before {
+            transform: rotate(-55deg);
+            top: 1rem;
+            left: 0.37rem;
+        }
+
+        .chiller_cb span:after {
+            transform: rotate(35deg);
+            bottom: 0.35rem;
+            left: 0.2rem;
+        }
+
+
+
+
+
+
+
+
+
+
+.FormPageee{
+        padding: 5% 10%;
+    background: #eee;
+}
+
+.personalInfoSec{
+        background: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+}
+.personalInfoSec .personalConent{
+        display: block;
+    width: 80%;
+    margin: auto;
+}
+.personalInfoSec .personalConent .PersonalImg{
+    
+}
+.personalInfoSec .personalConent .PersonalImg .ImgCont{
+        display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.personalInfoSec .personalConent .PersonalImg .ImgCont img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.personalInfoSec .personalConent .personalDetails {
+        display: flex;
+    height: 220px;
+    align-items: center;
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent{
+    
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent p{
+        font-size: 16px;
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent p span{
+        display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    background: #967101;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    margin-right: 0;
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent .QRButton{
+        background: #5e4701;
+    border: 1px solid #5e4701;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 0 25px;
+    border-radius: 25px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent .QRButton:hover{
+    transform: translateY(5px);
+        box-shadow: 0 5px 10px #c8c8c8;
+}
+.personalInfoSec .personalConent .personalDetails .DetailsContent .QRButton i{
+    margin-left: 10px;
+}
+.modalQRCODEIMG{
+    
+}
+.modalQRCODEIMG .modal-header{
+    
+}
+.modalQRCODEIMG .modal-header .close{
+    
+}
+.modalQRCODEIMG .modal-body{
+    
+}
+.modalQRCODEIMG .modal-body .imgGqrcode{
+        display: block;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+        border: 1px solid #eee;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.modalQRCODEIMG .modal-body .imgGqrcode img{
+        display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+.ProfileForm{
+        background: #fff;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+.ProfileForm .ProfileFormCont{
+    
+}
+.ProfileForm .ProfileFormCont .foldersList{
+    
+}
+
+.ProfileForm .ProfileFormCont .foldersList ul{
+    
+}
+.ProfileForm .ProfileFormCont .foldersList ul li{
+        width: 100% !important;
+}
+.ProfileForm .ProfileFormCont .foldersList ul li .FolderLink{
+background-color: #f6f6f6;
+    border-bottom: 1px solid #eee;
+    transition: all .3s ease-in-out;
+    text-transform: capitalize;
+    display: block;
+    padding: 0 15px;
+    color: #495057;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+}
+.ProfileForm .ProfileFormCont .foldersList ul li .active{
+            background-color: rgb(180 139 47);
+    color: #ffffff;
+}
+
+.ProfileForm .ProfileFormCont .foldersList ul li .FolderLink:hover{
+    background: #eee;
+}
+.ProfileForm .ProfileFormCont .foldersList ul li .active:hover{
+                background-color: rgb(180 139 47);
+    color: #ffffff;
+}
+.ProfileForm .ProfileFormCont .foldersList ul li .FolderLink .CompletInfor {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    border: 2px solid #f6f6f6;
+    color: #34c38f;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 5px;
+    background: #ffffff;
+    float: left;
+    font-size: 30px;
+}
+.ProfileForm .ProfileFormCont .foldersList ul li .FolderLink .PendingData{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #f6f6f6;
+    color: #f46a6a;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 5px;
+    background: #ffffff;
+    float: left;
+    font-size: 30px;
+}
+.ProfileForm .ProfileFormCont .foldersList ul li .active .CompletInfor {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    border: 2px solid #b48b2f;
+    color: #34c38f;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 5px;
+    background: #ffffff;
+    float: left;
+    font-size: 30px;
+}
+
+.ProfileForm .ProfileFormCont .foldersList ul li .active .PendingData {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #b48b2f;
+    color: #f46a6a;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 5px;
+    background: #ffffff;
+    float: left;
+    font-size: 30px;
+}
+
+
+.ProfileForm .formInputs{
+    
+}
+.ProfileForm .formInputs .form-group{
+    position: relative;
+}
+.ProfileForm .formInputs .form-group label{
+font-size: 17px;
+    color: #030303;
+    text-shadow: 0 0px 4px #ffffff;
+}
+.ProfileForm .formInputs .form-group label::after {
+    content: '*';
+    color: #967101;
+    font-size: 33px;
+    margin: 0 5px;
+    position: relative;
+    top: 15px;
+}
+.ProfileForm .formInputs .form-group .form-control{
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    border: 1px solid #eee;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+  
+}
+.ProfileForm .formInputs .form-group .form-control:focus{
+        border: 1px solid #967101;
+}
+
+.ProfileForm  .select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 0 !important;
+    border: 1px solid #eee !important;
+}
+
+.ProfileForm .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 40px;
+    height: 40px;
+}
+.ProfileForm .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 20px;
+}
+.select2-dropdown{
+    z-index: 9;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #967101;
+    color: white;
+}
+
+
+
+
+
+.image-preview-input {
+position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #fff;
+    background-color: #9a770b;
+    border-color: #9a770b;  
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left: 2px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+.input-group-btn{
+    background: #9a770b;
+}
+.bs-popover-top{
+    display: none;
+}
+.image-preview-filename{
+        height: 40px;
+    line-height: 40px;
+    outline: 0;
+    border: 1px solid #eee;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+        background: #fff !important;
+        text-align: inherit;
+}
+
+
+.input-group{
+        direction: initial;
+}
+
+
+
+
+
+.ProfileForm .formInputs .form-group textarea{
+    height: 150px;
+    line-height: inherit;
+    outline: 0;
+    border: 1px solid #eee;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+    resize: vertical;
+    min-height: 150px;
+    width: 100%;
+    padding: 5px 15px;
+}
+.ProfileForm .formInputs .form-group .AddButton{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    background: #34c38f;
+    border: 1px solid #34c38f;
+    color: #fff;
+    width: 50px;
+    left: 0;
+    font-size: 23px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.ProfileForm .formInputs .form-group .RemoveButton{
+        position: absolute;
+    bottom: 0;
+    height: 40px;
+    background: #f46a6a;
+    border: 1px solid #f46a6a;
+    color: #fff;
+    width: 50px;
+    left: 0;
+    font-size: 23px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.datepicker {
+    border: 1px solid #eff2f7;
+    padding: 8px;
+    z-index: 9 !important;
+}
+
+.table-condensed>tbody>tr>td, .table-condensed>thead>tr>th {
+    padding: 7px;
+}
+.datepicker table tr th {
+    font-weight: 500;
+}
+
+.datepicker table tr td.active.active{
+        background-color: #9a770b;
+        border-radius: 0;
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover {
+    background-image: linear-gradient(to bottom,#9a770b,#5e4701);
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+}
+.datepicker table tr td span.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active:hover {
+
+    background-image: linear-gradient(to bottom,#967101,#5e4701);
+
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+}
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+    width: 50px;
+    text-align: center;
+    
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #967101;
+    border: 1px solid #967101;
+    border-radius: 0;
+}
+.ProfileForm .form-group .checkOption .chiller_cb label{
+    color: #000;
+}
+.ProfileForm .form-group .checkOption .chiller_cb label::after{
+    content: none
+}
+.ProfileForm .form-group .OtherTitle{
+color: #bd9b3d;
+    font-weight: 500;
+    font-size: 27px;
+    margin: 15px 0;
+}
+
+.NavigationLinks{
+    margin-bottom: 15px;
+}
+.NavigationLinks .NextPage{
+    
+}
+.NavigationLinks .NextPage a{
+        display: block;
+    width: max-content;
+    height: 40px;
+    background: #967101;
+    line-height: 40px;
+    padding: 0 25px;
+    color: #ffffff;
+    transition: all .4s ease-in-out;
+}
+.NavigationLinks .PriviewsPage{
+    
+}
+.NavigationLinks .PriviewsPage a{
+    display: block;
+    width: max-content;
+    height: 40px;
+    background: #eeeeee;
+    line-height: 40px;
+    padding: 0 25px;
+    color: #5e4701;
+    margin-left: 0;
+    float: left;
+    transition: all .4s ease-in-out;
+}
+.NavigationLinks .PriviewsPage a:hover, .NavigationLinks .NextPage a:hover{
+    transform: translateY(5px);
+}
+.ProfileForm .form-group .ButtonSubmit{
+        display: block;
+    width: 80%;
+        height: 40px;
+    margin: 15px auto;
+    line-height: 40px;
+      background: #967101;
+     color: #ffffff;
+     transition: all .4s ease-in-out;
+    border: 1px solid #967101;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.ProfileForm .form-group .ButtonSubmit:hover{
+    transform: translateY(5px);
+}
+
+
+.TableChildren{
+    
+}
+.TableChildren table{
+    
+}
+.TableChildren table thead{
+    background: #9a770b;
+}
+.TableChildren table thead tr{
+    
+}
+.TableChildren table thead tr th{
+        padding: 5px;
+}
+.TableChildren table thead tr th p{
+            margin: 0;
+    text-align: center;
+    
+    color: #fff;
+}
+.TableChildren table tbody{
+    
+}
+.TableChildren table tbody tr{
+    
+}
+.TableChildren table tbody tr td{
+    
+}
+.TableChildren table tbody tr td p{
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+}
+
+.TableChildren table tbody tr td .RemoveButton{
+    height: 40px;
+    background: #f46a6a;
+    border: 1px solid #f46a6a;
+    color: #fff;
+    width: 40px;
+    left: 0;
+    font-size: 23px;
+    line-height: 40px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 0;
+    cursor: text;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #967101;
+    border: 1px solid #967101;
+    border-radius: 0;
+     color: #fff;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #aaa;
+    text-align: inherit;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+    text-align: inherit;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mean-container a.meanmenu-reveal{
+    left: 0 !important;
+    right: auto !important;
+        top: -15px;
+}
+.mean-container .mean-nav{
+        background: #5e4701 none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li a{
+    text-align: right;
+}
+
+.mean-container .mean-nav ul li a.mean-expand{
+    left: 0;
+    right: auto;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover{
+        background: rgb(150 113 1);
+}
+@media(max-width:768px){
+    .hiddeinXS{
+        display: none;
+    }
+    .about-us-area .section-title h1 {
+    font-size: 30px;
+    line-height: inherit;
+}
+    .single-video-wrapper{
+        height: 360px;
+    }
+    .case-text h3 {
+    font-size: 15px;
+    height: auto;
+}
+    .footer-icon {
+    margin-left: 0px;
+    float: none;
+    display: block;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
+    .footer-logo a {
+    margin: auto;
+}
+    .logo a {
+    display: block;
+    width: 50px;
+}
+        .login_registerPage .ContentPage .rightSide {
+    padding: 50px 15px;
+    }
+    .login_registerPage .ContentPage {
+    width: 100%;
+    }
+    .login_registerPage {
+    height: 100%;
+    }
+    .login_registerPage .ContentPage {
+    padding-bottom: 0px;
+}
+    .login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .titleDet h2 {
+    font-size: 29px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
