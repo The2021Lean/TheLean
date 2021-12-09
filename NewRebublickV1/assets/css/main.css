@@ -8319,7 +8319,22 @@ color: #bd9b3d;
 
 
 .TableChildren{
-    
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+     height: 6px;
+    background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #81683a;
 }
 .TableChildren table{
     
@@ -8334,10 +8349,13 @@ color: #bd9b3d;
         padding: 5px;
 }
 .TableChildren table thead tr th p{
-            margin: 0;
+margin: 0;
     text-align: center;
-    
     color: #fff;
+    display: block;
+    width: max-content;
+    padding: 0 25px;
+    margin: auto
 }
 .TableChildren table tbody{
     
@@ -8349,12 +8367,16 @@ color: #bd9b3d;
     
 }
 .TableChildren table tbody tr td p{
-    margin: 0;
     text-align: center;
     font-size: 17px;
     color: #000;
+    display: block;
+    width: max-content;
+    margin: auto;
 }
-
+.TableChildren table tbody tr td .addresss{
+    max-width: 250px;
+}
 .TableChildren table tbody tr td .RemoveButton{
     height: 40px;
     background: #f46a6a;
@@ -8398,16 +8420,62 @@ color: #bd9b3d;
     float: right;
 }
 
+.ProfileForm .formInputs .form-group .addMoreBTN{
 
 
+height: 40px;
+    background: #34c38f;
+    border: 1px solid #34c38f;
+    color: #fff;
+    width: max-content;
+    font-size: 20px;
+    margin-left: 0;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0 25px;
+    transition: all .4s ease-in-out;
+    margin: auto;
+    display: block;
+}
+.ProfileForm .formInputs .form-group .addMoreBTN:hover{
+    transform: translateY(5px);
+}
 
+.MoDalJobButtonTable{
+        display: block;
+    width: max-content;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    background: #967101;
+    color: #fff;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ModalJobImg{
+    
+}
 
+.ModalJobImg .JobImg{
+        display: block;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+.ModalJobImg .JobImg img{
+        display: block;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
 
-
-
-
-
-
+.select2-container{
+    width: 100% !important;
+    display: block;
+}
 
 
 
@@ -8496,6 +8564,9 @@ color: #bd9b3d;
     .login_registerPage .ContentPage .leftSide .LeftSideContent .leftDetails .titleDet h2 {
     font-size: 29px;
 }
+    .FormPageee{
+        padding: 0;
+    }
 }
 
 
