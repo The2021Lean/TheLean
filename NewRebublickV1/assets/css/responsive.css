@@ -19,7 +19,7 @@
 	margin-left: 0;
 }
     .slider-shape-img {
-        width: 55%;
+        width: 50%;
     }
     .menu-2 {
         padding-left: 20px;
@@ -858,19 +858,24 @@
         min-height: 490px;
     }
     .slider-text h1 {
-        font-size: 41px;
-        line-height: 1;
-        margin-bottom: 20px;
+font-size: 35px;
+    line-height: inherit;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 0;
     }
     .slider-text p {
         margin-right: 0;
         margin-bottom: 20px;
+        color: #fff;
     }
     .slider-text {
         padding-top: 70px;
+            background: #0000004d;
+    padding: 15px;
     }
     .slider-shape-img {
-        width: 54%;
+        width: 100%;
     }
     .menu-2 {
         padding-left: 0;
