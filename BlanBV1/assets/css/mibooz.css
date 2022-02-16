@@ -5957,7 +5957,7 @@ font-size: 21px;
 .welcome-three-img {
     position: relative;
     display: block;
-    background-color: var(--mibooz-black);
+/*    background-color: var(--mibooz-black);*/
     overflow: hidden;
 }
 
