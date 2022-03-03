@@ -4177,7 +4177,7 @@ hero style 3
 }
 .wpo-hero-slider.wpo-hero-style-3 .slide-inner:before {
   background: #202026;
-  opacity: .7;
+  opacity: 0;
 }
 .wpo-hero-slider.wpo-hero-style-3 .slide-content {
   padding-top: 110px;
