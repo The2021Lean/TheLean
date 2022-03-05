@@ -4177,7 +4177,7 @@ hero style 3
 }
 .wpo-hero-slider.wpo-hero-style-3 {
   position: relative;
-    background: #00000042;
+background: #0000008c;
 }
 .wpo-hero-slider.wpo-hero-style-3 .slide-inner:before {
   background: #202026;
@@ -4188,16 +4188,18 @@ hero style 3
 }
 .wpo-hero-slider.wpo-hero-style-3 .slide-title h2 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 120%;
   margin-bottom: 50px;
+/*
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
+*/
 }
 .wpo-hero-slider.wpo-hero-style-3 .slide-title p{
 color: #fff;
-    font-size: 15px;
+    font-size: 17px;
     margin: auto;
     display: block;
     margin-bottom: 15px;
@@ -10529,28 +10531,28 @@ background: #3e3f41db;
     
 }
 .AbouSecHome .wpo-about-text .wpo-about-title h2{
-    text-align: center;
+text-align: center;
     color: #fff;
     margin-bottom: 10px;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 600;
     font-family: 'Muli';
     text-transform: uppercase;
-    word-spacing: 10px;
+
     letter-spacing: 5px;
 }
 .AbouSecHome .wpo-about-text p{
     color: #fff;
     text-align: center;
-    text-transform: capitalize;
-    font-size: 30px;
-    width: 70%;
+    text-transform: initial;
+    font-size: 17px;
+    width: 75%;
     margin: auto;
     line-height: normal;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1px;
     position: relative;
-    padding: 35px 15px;
+    padding: 35px 5px;
     border: 2px solid #CAAB06;
     border-top: 0;
 }
