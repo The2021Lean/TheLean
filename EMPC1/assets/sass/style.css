@@ -3688,7 +3688,7 @@ padding-left: 70px;
 }
 @media (max-width: 1600px) {
   .static-hero .slide-visible-text h2 {
-font-size: 65px;
+font-size: 40px;
     bottom: 0;
     font-weight: 400;
     line-height: normal;
@@ -4187,12 +4187,23 @@ hero style 3
 }
 .wpo-hero-slider.wpo-hero-style-3 .slide-title h2 {
   font-weight: 600;
-  font-size: 150px;
+  font-size: 30px;
   line-height: 120%;
   margin-bottom: 50px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
+}
+.wpo-hero-slider.wpo-hero-style-3 .slide-title p{
+color: #fff;
+    font-size: 15px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    width: 70%;
+    font-weight: 100;
+    font-family: 'Muli';
+    text-transform: initial;
 }
 @media (max-width: 1199px) {
   .wpo-hero-slider.wpo-hero-style-3 .slide-title h2 {
@@ -10448,14 +10459,17 @@ position: sticky !important;
     padding-top: 50px;
 }
 .static-hero .slide-title p{
-    color: #fff;
+color: #fff;
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 15px;
     line-height: normal;
     margin-bottom: 35px;
     font-family: 'Muli';
-    font-weight: bolder;
+    font-weight: 100;
     letter-spacing: 1px;
+    width: 70%;
+    padding: 15px;
+    padding-bottom: 0;
 }
 
 
@@ -10609,11 +10623,11 @@ background: radial-gradient(circle, rgb(11 53 65 / 85%) 50%, rgb(0 0 0 / 95%) 10
         color: #fff;
     text-align: left;
     text-transform: capitalize;
-    font-size: 28px;
+    font-size: 15px;
 
     margin: auto;
-    line-height: normal;
-    font-weight: 700;
+/*    line-height: normal;*/
+    font-weight: 100;
     letter-spacing: 1px;
     position: relative;
     padding: 35px 15px;
@@ -10966,6 +10980,78 @@ background: #696063;
 .preloader img{
         width: 100px;
 }
+.wpo-hero-slider{
+    height: 100vh;
+}
+
+.wpo-hero-slider .swiper-button-next, .wpo-hero-slider .swiper-button-prev{
+    top: 80%;
+}
+.wpo-hero-slider.wpo-hero-style-3 .slide-inner:before{
+    opacity: .1
+}
+.wpo-hero-slider.wpo-hero-style-3 .slide-content {
+    padding-top: 0;
+}
+.static-hero .slide-title {
+    padding-top: 0;
+}
+.wpo-hero-slider .swiper-button-prev,  .static-hero .swiper-button-prev, .static-hero .swiper-button-next, .static-hero-s2 .swiper-button-prev, .static-hero-s2 .swiper-button-next, .static-hero-s3 .swiper-button-prev, .static-hero-s3 .swiper-button-next{
+    
+    
+            background: rgb(195 153 89);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #91764a;
+    border-radius: 0%;
+    opacity: 0.7;
+    text-align: center;
+    transition: all 0.3s;
+    
+}
+.wpo-hero-slider .swiper-button-prev, .static-hero .swiper-button-prev, .static-hero-s2 .swiper-button-prev, .static-hero-s3 .swiper-button-prev{
+    left: auto;
+    right: 90px;
+}
+.uliserv{
+    
+}
+.uliserv ul{
+    padding: 0;
+    margin: 0;
+}
+.uliserv ul li{
+        list-style: none;
+    margin-bottom: 5px;
+}
+
+.uliserv ul li .sevitem{
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+}
+.uliserv ul li .sevitem span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+background: #caab06;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
