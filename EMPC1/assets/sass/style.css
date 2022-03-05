@@ -10828,12 +10828,17 @@ background: #696063;
     color: #fff;
     font-family: 'Muli';
     text-transform: uppercase;
+        text-align: left;
+    padding: 0 10px;
+    font-size: 25px;
 }
 
 .relatedwebsite .relatedCOntent .relateditem .rightside .wecont p{
-        color: #fff;
+color: #fff;
     line-height: normal;
     font-size: 15px;
+    text-align: left;
+    padding: 0 10px;
 }
 .relatedwebsite .relatedCOntent .relateditem .rightside .wecont .btns{
     justify-content: center;
